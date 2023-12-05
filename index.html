@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 id="sidebar-white">D</h1>
+        <div class="sidebar-icon">
+        <i class='bx bxs-home' id="sidebar-icon"></i>
+        <i class='bx bxs-contact' id="sidebar-white"></i>
+        <i class='bx bxs-megaphone' id="sidebar-icon"></i>
+        <i class='bx bx-wrench' id="sidebar-icon"></i>
+        <i class='bx bx-bar-chart-square' id="sidebar-icon"></i>
+        <i class='bx bx-image' id="sidebar-icon"></i>
+        <i class='bx bx-dollar-circle' id="sidebar-icon"></i>
+     </div>
+    </div>
+    <div class="navbar">
+        <h2 class="nav-head">Edit Contact</h2>
+        <div class="nav-right">
+            <p id="nav-space"><b>dembsky</b></p> 
+            <p id="nav-space"><b>inc.</b><i class='bx bxs-down-arrow' ></i></p>
+           <p id="nav-space">|</p>
+            <i class='bx bxs-cog' id="nav-space"></i>
+            <i class='bx bxs-help-circle' id="nav-space" ></i>
+            <i class='bx bx-user'  id="nav-space"></i>
+        </div>
+    </div>
+ <div class="content">
+    <div class="cont-left">
+        <h4 class="cont-left-head">Groups</h4>
+        <p class="cont-left-para">Basic information</p>
+        <p class="cont-left-para">Address info</p>
+        <p class="cont-left-para">System info</p>
+        <h4 class="cont-left-head">Options</h4>
+        <p class="cont-left-para">Mailing Lists</p>
+        <p class="cont-left-para">Veiw Mailings</p>
+        <p class="cont-left-para">Tasks</p>
+        <p class="cont-left-para">Notes</p>
+        <p class="cont-left-para">Audit Log</p>
+    </div>
+    <div class="center-cont-all">
+    <div class="cont-center">
+        <h4>Basic Information</h4>
+        <form class="form-one-center">
+            <label>Email<i class='bx bxs-circle' id="highlight-red"></i></label>
+            <input type="text" class="form-one-inputf" placeholder="contact@demsky.me">
+            <div class="cont-center-basic">
+            <label>First Name</label>
+            <label>Last Name</label>
+            <input type="text" class="form-one-inputh" placeholder="Mateusz">
+            <input type="text" class="form-one-inputh" placeholder="Dembek">
+            </div>
+            <label>Full Name</label>
+            <input type="text" class="form-one-inputf" placeholder="Mateusz Dembek">
+            <div class="cont-center-basic-end">
+                <label>Status<i class='bx bxs-circle' id="highlight-red"></i></label>
+                <label>Tracking<i class='bx bxs-circle' id="highlight-red"></i></label>
+                <input type="text" class="form-one-inputh" placeholder="Bangalore">
+                <input type="text" class="form-one-inputh" placeholder="Mail No">
+            </div>
+        </form>
+        <h4>Address Information</h4>
+        <form class="form-one-center">
+            <label>Address</label>
+            <input type="text" class="form-one-input-empty">
+            <label>Address Line 2</label>
+            <input type="text" placeholder="Address Line2(if needed)" class="form-one-input-address">
+            <div class="cont-center-basic-end">
+                <label>City</label>
+                <label>State</label>
+                <input type="text" class="form-one-inputh">
+                <input type="text" class="form-one-inputh">
+                <label>Zip</label>
+                <label>Country</label>
+                <input type="text" class="form-one-inputh">
+                <input type="text" class="form-one-inputh">
+            </div>
+            <div class="form-address-end">
+            <label>Country</label>
+            <input type="text" class="form-one-input-empty">
+           </div>
+        </form>
+    </div>
+    </div>
+    <div class="cont-right">
+        <div class="cont-right-top-input">
+        <button class="group-input">Group Input</button>
+        <button class="single-input">Single Input</button>
+        </div>
+        <h3 class="cont-right-addgroup">Add Group Inputs</h3>
+        <p5 class="cont-right-para">Click and drag to add a new input anywhere on the layout, then delete or edit field to customize.</p>
+            <p class="cont-right-search"><i class='bx bx-search'></i><b>      Search...</b></p>
+            <div class="cont-right-basic">
+                <i class='bx bxs-user'></i>
+                <div class="cont-right-basic-para-head">
+                <h6>Basic Information</h6>
+                <h6 class="cont-right-basic-para">Email, First Name, Last Name, Full Name, Status, Tracking</h6>
+                </div>
+            </div>
+            <div class="cont-right-address">
+                <i class='bx bx-home' ></i>
+                <div class="cont-right-address-para-head">
+                    <h6>Address Information</h6>
+                    <h6 class="cont-right-address-para">Address, State, City, ZIP,County, Country</h6>
+                </div>
+            </div>
+            <div class="company-information">
+                <i class='bx bx-buildings' id="building"></i>
+                <div class="company-information-para-head">
+                    <h6>Company Information</h6>
+                    <h6 class="company-information-para">Name, Industry, Department, Title, Role, SISC Code, Company Size, Annual Revenue</h6>
+                </div>
+            </div>
+            <div class="sales-cont">
+                <i class='bx bxs-group' id="sales-people"></i>
+                <div class="sales-cont-head">
+                    <h6>Sales Representative</h6>
+                    <h6 class="sales-cont-para">First Name, Last Name, Email, Phone Photo</h6>
+                </div>
+            </div>
+            <div class="target-cont">
+                <i class='bx bx-target-lock' ></i>
+                <div class="target-cont-head">
+                    <h6>System Information</h6>
+                    <h6 class="target-cont-para">Contact ID, External System ID, Source, source, Usub Reason, Date Joined, Expire Date, Updated Date, Never put on hold</h6>
+                </div>
+            </div>
+    </div>
+ </div>
+</body>
+</html>

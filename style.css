@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: fixed;
+    width: 50px;
+    height: 636px;
+    background-color: rgb(2,2,66);
+    color: gray;
+    padding: 15px 15px 0px 20px;
+    font-size: 20px;
+    
+}
+#sidebar-white{
+    color: white ;
+    padding: 10px;
+}
+#sidebar-icon{
+    padding: 10px;
+}
+.navbar{
+    background-color: whitesmoke;
+    margin-left: 84px;
+    display: flex;
+}
+.nav-head{
+    margin-left: 20px;
+    padding: 20px 0px 20px 0px;
+}
+.nav-right{
+    display: flex;
+    margin-left: 67%;
+    padding: 24px 0px 20px 0px;
+}
+#nav-space{
+    padding: 0px 6px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 247px 750px auto;
+}
+.cont-left{
+    margin-left: 125px;
+    width: 120px;
+    height: auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.224);
+}
+.cont-left-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cont-left-para{
+    padding: 15px 0px 10px 5px;
+    font-size: 13px;
+}
+.center-cont-all{
+    border-right: 1px solid rgba(0, 0, 0, 0.224);
+    padding-bottom: 40px;
+}
+.cont-center{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.form-one-center{
+    margin-top: 20px;
+}
+.form-one-inputf{
+    width: 690px;
+    margin: 20px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.121);
+    border: 1px solid rgba(128, 128, 128, 0.342);
+}
+#highlight-red{
+    color: red;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.cont-center-basic{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-one-inputh{
+    width: 330px;
+    margin: 20px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.121);
+    border: 1px solid rgba(128, 128, 128, 0.342);
+}
+.cont-center-basic-end{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.form-one-input-empty{
+    width: 690px;
+    margin: 20px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.121);
+    border: 1px solid rgba(128, 128, 128, 0.342);
+}
+.form-one-input-address{
+    width: 690px;
+    margin: 20px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.121);
+    border: 1px solid rgba(128, 128, 128, 0.342);
+}
+.form-address-end{
+    display:grid;
+    grid-template-columns: auto;
+}
+.cont-right{
+    margin: 40px 0px 0px 30px;
+}
+.group-input{
+    border-radius:5px ;
+    border: 1px solid gainsboro;
+    padding: 8px;
+   
+}
+.group-input:hover{
+    background-color: white;
+}
+.single-input{
+    border-radius:5px ;
+    padding: 8px;
+    background-color: lightgray;
+    border: 1px solid gainsboro ;
+}
+.cont-right-addgroup{
+    padding: 15px 0px;
+}
+.cont-right-para{
+    color: rgba(24, 0, 0, 0.685);
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.cont-right-search{
+    margin-top: 15px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    background-color:rgba(128, 128, 128, 0.082);
+    width: 300px;
+    padding: 8px 0px 8px 8px;
+}
+.cont-right-basic{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 290px;
+    padding: 8px;
+    color:rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.cont-right-basic-para-head{
+    padding: 10px 20px;
+}
+.cont-right-basic-para{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.cont-right-address{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 290px;
+    padding: 8px;
+    color:rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.cont-right-address-para-head{
+    padding: 10px 20px;
+}
+.cont-right-address-para{
+     padding-top: 10px;
+     font-size: 12px;   
+}
+.company-information{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 290px;
+    padding: 8px;
+    color:black;
+    font-size: 25px;
+}
+#building{
+    color: rgb(255, 191, 0);
+}
+.company-information-para-head{
+    padding: 10px 20px;
+}
+.company-information-para{
+    padding-top: 12px;
+    font-size: 12px;
+}
+.sales-cont{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 290px;
+    padding: 8px;
+    color:black;
+    font-size: 25px;
+}
+#sales-people{
+    color: red;
+}
+.sales-cont-head{
+    padding: 10px 20px;
+}
+.sales-cont-para{
+    padding-top: 12px;
+    font-size: 12px;
+}
+.target-cont{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 3px;
+    width: 290px;
+    padding: 8px;
+    color:rgba(128, 128, 128, 0.507);
+    font-size: 25px;
+}
+.target-cont-head{
+    padding: 10px 20px;
+}
+.target-cont-para{
+    padding-top: 12px;
+    font-size: 12px;
+}
+::placeholder{
+    font-weight: bold;
+}
